@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Platform, StyleSheet, Text, View} from "react-native";
+import { Platform, StyleSheet, Text, View } from "react-native";
 
 export default class App extends Component {
   render() {
@@ -18,17 +18,17 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    backgroundColor: "#F5FCFF",
   },
   welcome: {
     fontSize: 20,
     textAlign: "center",
-    backgroundColor: "#F5FCFF"
+    backgroundColor: "#F5FCFF",
   },
   box: {
     width: 60,
     height: 60,
     margin: 10,
-    backgroundColor: "#F00"
+    backgroundColor: "#F00",
   }
 });
